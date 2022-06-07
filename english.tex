@@ -1,0 +1,126 @@
+\documentclass{resume}
+\usepackage[hidelinks]{hyperref}
+
+\name{Denis Kabishev}
+\contact{\href{Ettlingen, Germany}{Ettlingen, Germany}}
+\contact{\href{tel:+49-176-44403044}{+49-176-44403044}}
+\contact{\href{mailto:kabishev@gmail.com}{kabishev@gmail.com}}
+\contact{\href{https://linkedin.com/in/denis-kabishev}{linkedin.com/in/denis-kabishev}}
+
+
+\begin{document}
+\makeheader
+\\ \\ {A software development engineer with a computer-science degree and many years of hands-on experience in different areas of IT industry.
+I worked with a variety of technologies and programming languages (see below). I am passioned in professional improvement and currently my goal is becoming a functional developer with extensive experience in a range of complex areas.} \\
+\begin{ResumeSection}{skills}
+    \newcommand{\skill}[2]{\textbf{#1} - #2}
+    \begin{ResumeSubsection}{org=Key Strengths}
+        \begin{itemize}
+            \item Over 10 years of full-time and full-stack software development experience
+            \item Wide experience in development desktop and web-based applications
+            \item Strong knowledge of OOP principles
+            \item Enthusiasm for learning new technologies and effectively using them
+        \end{itemize}
+    \end{ResumeSubsection}
+    \begin{ResumeSubsection}{org=Engineering}
+        \begin{itemize}
+            \item \skill{Enterprise Web Application Development}{.Net, Java}
+            \item \skill{Data Engineering}{SQL, MSSQL, Cosmos DB}
+            \item \skill{Windows desktop Development}{ATL, MFC, WinFroms, WPF}
+            \item \skill{Web Client Development}{Typescript, react, redux, mobx, material design}
+            \item \skill{Infrasructure}{Cloud service providers including Azure and AEM}
+        \end{itemize}
+    \end{ResumeSubsection}
+    \begin{ResumeSubsection}{org=General}
+        \begin{itemize}
+            \item \skill{Language Skills}{Russian as mother tongue, English(Upper-Intermediate, B2)}
+        \end{itemize}
+    \end{ResumeSubsection}
+\end{ResumeSection}
+
+\begin{ResumeSection}{experience}
+    \begin{ResumeSubsection}{org={Across Systems GmbH},location={Karlsruche, Germany},position={Software developer},duration=2019.01-\ldots}
+        \\ {Design, development and support of Elanion(https://www.across.net/en/products/elanion) a cloud middleware, integrating different content systems into translation management. The project has a microservices architecture(event driven) based on Azure Cloud.}
+        \\ \responsibility {
+        \begin{itemize}
+            \item designed and developed SPA web application,
+            \item developed and supported core part microservices,
+            \item designed and developed Java plugin for Adobe Experience Manager(CMS)
+            \item unit and functional testing,
+            \item Azure DevOps development.
+        \end{itemize}}
+        \technologies {Azure(stateless, EventGrid, SQL, Cosmos DB), .Net Core, Java, React, MobX, Material Design, Docker, Scrum}
+    \end{ResumeSubsection}
+
+    \begin{ResumeSubsection}{org={Eldis soft},location={Novosibirsk, Russia},position={Frontend developer},duration={2017.10-2018.05}}
+        \\ {The project is document management system for any securities issuers serviced through the system, based on mutual transfer-agent services provided to each other by registrars participating in the system. The development based on functional stack (Scala, Cats, http4s, Dobbie, Circe, Shapless) where I started as frontend developer.}
+        \\ \responsibility {
+            \begin{itemize}
+                \item improved the existed solution,
+                \item performance optimisation. The most problem was connected to the project structure, so a lot of work was done to reduce the latency from 2 sec to 50 ms,
+                \item implemented new features,
+                \item improved UI tesing by migration from mocha test framework to Jest (it reduced tests execution time from 1.5 min to 6 sec).
+            \end{itemize}}
+        \technologies {Typescript(fp-ts, io-ts, monockle-ts), React, Redux, Jest, WebPack\\} 
+    \end{ResumeSubsection}
+
+    \begin{ResumeSubsection}{org={Xored Software Inc},location={Novosibirsk, Russia},position={Software engineer},duration={2016.01-2017.09}}
+        \\ {Work with Cisco on Enterprise Network Management system. Cisco Prime™ Infrastructure provides a single integrated solution for the complete lifecycle management of Cisco routers, switches, and wireless devices along with deep visibility into the end-user connectivity and application performance. I have participate in two projects as a full-stack developer related to data-aggregation software based on an application with a huge legacy code and Cisco software update framework.}
+        \\ \responsibility {
+            \begin{itemize}
+                \item implemented new features on client and server sides, 
+                \item bug fixing,
+                \item supported for problems related to updating software modules,
+                \item participated in multiple customer troubleshooting sessions, fixed issues on customer’s setups.
+            \end{itemize}}
+        \technologies {Java EE, Spring, Hibernate, JavaScript, JUnit, Mokito}
+    \end{ResumeSubsection}
+
+    \begin{ResumeSubsection}{org={Across Systems.ru},location={Novosibirsk, Russia},position={Software developer},duration={2008.07-2015.12}}
+        \\ {Design, development and support of a boxed software product for managing the translation process and organising the translator's workplace (distributed multi-level system). I have been involved in many parts of the system, mainly as a c++ / c\# developer.}
+        \\ \responsibility {
+            \begin{itemize}
+                \item developed windows desktop client (MFC, WinForms, WPF),
+                \item implemented plugins for MS Office, Adobe InDesign, FrameMaker,
+                \item implemented COM library components
+                \item implemented tests with interaction between Native and Managed code
+            \end{itemize}}
+            \technologies {C++ (C++03/C++11), STL, boost, WTL/ATL, COM, C\#, .Net, WinForms, WF, WPF, ASP.NET MVC, MS SQL, Entity Framework, MS Test, cppunit, XML/XSLT, IoC(AutoFac, MEF), Scrum}
+    \end{ResumeSubsection}
+
+\end{ResumeSection}
+
+\begin{ResumeSection}{education}
+    \begin{ResumeSubsection}{org={Novosibirsk State Technical University},position={Master's degree of information and computer science},duration={2003-2006}}
+        \begin{itemize}
+            \item Design and analysis of hybrid systems by Petri net
+        \end{itemize}
+    \end{ResumeSubsection}
+    \begin{ResumeSubsection}{org={Novosibirsk State Technical University},position={Bachelor of information and computer science},duration={1999-2003}}
+
+    \end{ResumeSubsection}
+\end{ResumeSection}
+
+\begin{ResumeSection}{certificates}
+    \begin{itemize}
+        \item Microsoft Certified: Azure Developer Associate \\
+            \url {https://www.credly.com/badges/7903b8c1-bd64-4e7b-a099-5ccf18814b33}
+        \item Functional Program Design in Scala \\
+            \url {https://www.coursera.org/account/accomplishments/verify/6VR2P8ACCDTD}
+        \item Functional Programming Principles in Scala \\
+            \url {https://www.coursera.org/account/accomplishments/verify/DKWXKRNZ7QPH}
+        \item Functional programming in Haskell \\
+            \url {https://stepik.org/cert/907732}
+            
+    \end{itemize}
+\end{ResumeSection}
+
+\begin{ResumeSection}{hobies}
+    \begin{itemize}
+        \item programming
+        \item sports: football, volleyball, cycling, snowboarding, paragliding
+    \end{itemize}
+\end{ResumeSection}
+
+\end{document}
+
